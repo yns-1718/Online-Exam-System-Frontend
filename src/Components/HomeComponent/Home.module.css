@@ -1,0 +1,59 @@
+/* Home.module.css */
+
+.navbar {
+    background-color: #17a2b8;
+  }
+  
+  .logo {
+    height: 70px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .background {
+    background-color: #2a3cd8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .card {
+    color: #fff;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .purple {
+    background-color: #9370db;
+  }
+
+  .title {
+    color: #fff;
+  }
+  
+  .icon {
+    font-size: 100px;
+    margin-bottom: 10px;
+  }
+
+  .yellow {
+    background-color: #ffc107;
+  }
+  
+  .red {
+    background-color: #dc3545;
+  }
+  
+  .blue {
+    background-color: #007bff;
+  }
+  

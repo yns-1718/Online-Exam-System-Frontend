@@ -1,0 +1,38 @@
+.logo {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Adjust height proportionally */
+  /* Add any other styles you want */
+}
+
+.sidebar {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.sidebar .nav-link {
+  font-size: 18px;
+}
+
+.sidebar .nav-item .active {
+  background-color: #0016dd;
+  color: white;
+  border-radius: 20px; /* Add rounded border radius */
+  padding: 5px 15px; /* Adjust padding as needed */
+}
+
+.sidebar {
+  background-color: white;
+  border: 1px solid #ccc;
+  height: 100vh; /* Set the height to match the content area */
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: 0;
+  height: 100%; /* Set the height to occupy the full sidebar height */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.sidebarImageBox {
+  padding: 10px;
+}

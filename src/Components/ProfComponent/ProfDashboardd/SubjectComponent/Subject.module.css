@@ -1,0 +1,116 @@
+#tableBox {
+  width: 100%;
+  margin-left: 10px;
+  font-size: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+
+#center {
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
+
+th {
+  height: 35px;
+}
+
+tr td button {
+  color: white;
+  background-color: black;
+  height: 35px;
+  min-width: 90px;
+  border-radius: 7px;
+}
+
+tr td button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#addSubjectBox {
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#addSubjectBox button {
+  height: 30px;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+#addSubjectBox button:hover {
+  background-color: #0c4d1b;
+}
+
+/* Add Subject css */
+
+#addBox {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 100%;
+  min-height: 150px;
+  float: left;
+}
+
+#addBox button {
+  margin-top: 10px;
+  height: 30px;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  min-width: 50px;
+}
+
+#addBox button:hover {
+  background-color: #0c4d1b;
+}
+
+#addBox input {
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#addBox label {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.addQuestion {
+  margin-top: 0px !important;
+}
